@@ -2,26 +2,29 @@ import React from 'react'
 const GitHub = require('../img/GitHub.svg');
 const Hacker = require('../img/Hacker.svg');
 const LinkDin = require('../img/LinkDin.svg');
-const line = require('../img/Line Vertical Black.svg');
-const one = require('../img/1.png');
+const lang = require('../img/Lang.svg');
+const me = require('../img/me.jpg');
+
 function About() {
     return (
+
         <div className="about">
-             <div>
-                           <img src={one} style={{ width: '28rem' }}/>
-                       </div>
+            <em>  <h5 style={{ marginBottom: '20px' }}>ABOUT--</h5></em>
                        <div className="about-body">
                            <div className="about-left">
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                               <img src={me} style={{ width: '28rem' }} />
+                               <p>
+                                   Hi, my name is Vinuthna, I’m working as a software developer for the last 2 years mostly using Javascript, Java, React, spring on day to day basis  & I’m particularly passionate about frontend development. The field of machine learning really intrigues me so I spend time reading about it a lot & I even have a paper published on the same as well.
+                                   I’m very fond of martial arts and have also acquired a yellow belt in Taekwondo apart from this I spend my time  playing video games or reading books.
+                               </p>
+                             <em>  <p>
+                                   Email : allavs01@gmail.com<br/>
+                                   Phone : 9552827790
+                             </p></em>
                            </div>
-                           <div className="about-center">
-                               <img src={line}/>
-                           </div>
+                           <div className="about-center"/>
                            <div className="about-right">
-                               <a href="https://github.com/valla0110/" target="_blank"> <img src={GitHub} /></a>
-                               <a href="" target="_blank"> <img src={Hacker}/></a>
-                               <a href="https://www.linkedin.com/in/vinuthna-alla-516474129/" target="_blank"> <img src={LinkDin}/></a>
-                           </div>
+                               <img src={lang} width="170%"/></div>
                        </div>
 
         </div>

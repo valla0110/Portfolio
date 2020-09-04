@@ -14,7 +14,7 @@ export const  RESEARCH_INFO = "Emotion recognition systems, are developed using 
     "\n" +
     " \n" +
     "\n" +
-    "identify emotions. The existing emotion recognition systems have been designed for English, Telegu, German and various other languages except Hindi. So, with this motivation we propose an application of speech emotion recognition portal that classifies a Hindi sentence into an emotion (such as happy, sad, angry, surprise and fear) and the functioning of which is illustrated using an example below. Consider an application where the customer is irritated and frustrated with the machine’s response. From the sentence spoken by the speaker we can extract features and use classification model to determine the emotion by considering both text as well as MFFC features of the speech. Once the emotion is identified as “frustration”, the customer should be instantly provided with human assistance to calm him of the frustration because of the lack of response from the machine. On the other hand, if the customer emotion is “Happy”, then the delighted mood increases the probability of the customer to buy related items, when offered to him";
+    "identify emotions. The existing emotion recognition systems have been designed for English, Telugu, German and various other languages except Hindi. So, with this motivation we propose an application of speech emotion recognition portal that classifies a Hindi sentence into an emotion (such as happy, sad, angry, surprise and fear) and the functioning of which is illustrated using an example below. Consider an application where the customer is irritated and frustrated with the machine’s response. From the sentence spoken by the speaker we can extract features and use classification model to determine the emotion by considering both text as well as MFFC features of the speech. Once the emotion is identified as “frustration”, the customer should be instantly provided with human assistance to calm him of the frustration because of the lack of response from the machine. On the other hand, if the customer emotion is “Happy”, then the delighted mood increases the probability of the customer to buy related items, when offered to him";
 
 
 export const PROJECTS_TITLES =[
@@ -22,8 +22,8 @@ export const PROJECTS_TITLES =[
     "Multilingual Chatbot",
     "Content Management System(CMS) for Effective Search of Research Papers using AWS",
     "Face Recognition and Image Retrieval",
-    "Content Management System(CMS) for SMS"
-
+    "Content Management System(CMS) for SMS",
+    "This Website"
 ]
 
 export const PROJECT_CONTENT =[
@@ -31,5 +31,6 @@ export const PROJECT_CONTENT =[
     "A Chatbot using Natural Language Processing (NLP) was created to help users translate text/audio input from one Indian language to another. Our aim to assist people and help them improve their communication and verbal abilities",
     "On keyword search by user link and abstract is retrieved from DB and displayed. The link can be used to access the complete research paper if the user wants to. Developed for both Android and web.",
     "On keyword search by user link and abstract is retrieved from DB and displayed. The link can be used to access the complete research paper if the user wants to. Developed for both Android and web.",
-    " The app reads received SMS and then they are sorted according to subject and tokens and then stored in our database. When a user searches a word SMS related to that word was displayed."
+    " The app reads received SMS and then they are sorted according to subject and tokens and then stored in our database. When a user searches a word SMS related to that word was displayed.",
+    "Made using React."
 ]

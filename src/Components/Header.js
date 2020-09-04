@@ -1,5 +1,4 @@
 import React from 'react';
-import {Nav} from 'react-bootstrap';
 
 function Header() {
     return (
@@ -11,17 +10,18 @@ function Header() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="/about">Abouth</a>
+                        <li className="nav-item">
+                            <a className="nav-link" style={{paddingRight: "2.5re"}} href="/"><em>Home</em></a>
+                        </li>
+
+                        <li className="nav-item">
+                            <a className="nav-link" href="/projects"><em>Projects</em></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/research">Research</a>
+                            <a className="nav-link" href="/research"><em>Research</em></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/projects">Projects</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/experience">Experience</a>
+                            <a className="nav-link" href="/about"><em>About</em></a>
                         </li>
                     </ul>
                 </div>

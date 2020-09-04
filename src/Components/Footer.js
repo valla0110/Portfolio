@@ -5,13 +5,10 @@ const LinkDin = require('../img/LinkDin.svg');
 function Footer() {
     return (
         <div className="footer">
-            <div className="footer-left">
-               <a style={{color:"white"}} href="" target="_blank">RESUME</a>
-            </div>
             <div className="footer-right">
-                <a href="https://github.com/valla0110/" target="_blank"> <img src={GitHub} /></a>
-                <a href="" target="_blank"> <img src={Hacker}/></a>
-                <a href="https://www.linkedin.com/in/vinuthna-alla-516474129/" target="_blank"> <img src={LinkDin}/></a>
+                <a href="https://github.com/valla0110/" target="_blank"> <img src={GitHub} width="20%" /></a>
+                <a href="https://www.hackerrank.com/allavs01" target="_blank"> <img src={Hacker} width="15%"/></a>
+                <a href="https://www.linkedin.com/in/vinuthna-alla-516474129/" target="_blank"> <img src={LinkDin} width="15%"/></a>
             </div>
         </div>
     )

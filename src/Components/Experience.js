@@ -1,12 +1,11 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Accordion,Card} from 'react-bootstrap'
 import {EXPERIENCE} from './../Constants/Constants';
 
 
-function Experience() {
+function Experience(props) {
     return (
-        <div>
+        <div className="experience">
+            <em><h5>EXPERIENCE--</h5></em>
             <div className="accordion" id="accordionExample">
 
                 <div className="card">
@@ -30,6 +29,9 @@ function Experience() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="accordion" id="accordionExample2" >
+
 
                 <div className="card">
                     <div className="card-header" id="headingTwo">

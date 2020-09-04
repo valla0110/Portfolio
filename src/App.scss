@@ -1,38 +1,255 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.app{
+  margin: 100px;
+  @media (max-width: 480px) {
+    margin: 20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+body {
+  background-image: url("../src/img/home.png");
+}
+
+.home{
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  h1{
+    font-size: 90px;
+    @media (max-width: 480px) {
+      font-size: 50px;
+    }
+  }
+  h2{
+    padding-left: 150px;
+    @media (max-width: 480px) {
+      font-size: 15px;
+    }
+  }
+  h4{
+    padding-left: 20px;
+    @media (max-width: 480px) {
+      font-size: 15px;
+    }
+  }
+}
+.home-left{
+  margin-bottom: 200px;
+  @media (max-width: 480px) {
+    margin-bottom: 100px;
+  }
+}
+.home-right{
+  width: 60%;
+  align-self:flex-end;
+
+  @media (max-width: 480px) {
+    width: 100%;
+  }
+}
+
+.header {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1000;
+  background-color: #f2f1df;
+  @media (max-width: 480px) {
+    justify-content: flex-start;
+  }
+}
+.header a{
+  color: black;
+  font-size: 18px;
+}
+/*.header-left {
+  align-self: flex-start;
+  margin-top: 17px;
+  padding-left: 50px;
+  font-size: 18px;
+}*/
+.header-right {
+  margin-top: 10px;
+  align-self: center;
+  padding-right: 50px;
+}
+.hello {
+  width:50%;
+  padding-top: 150px;
+  margin: auto;
+}
+
+.details {
+  font-family: 'Baskervville';
+  width:50%;
+  padding-top: 10px;
+  margin: auto;
+  position: center;
+}
+
+.left-allign {
+  font-family: 'Baskervville';
+  padding : 10px;
+}
+
+.research {
+  width: 100%;
+  @media (max-width: 480px) {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+research-header {
+  font-family: 'Baskervville';
+  h5,h4{
+    @media (max-width: 480px) {
+      width: 75%;
+    }
+  }
+
+}
+.research-body {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 480px) {
+    flex-flow: row wrap;
+    flex-direction: column-reverse;
+  }
+}
+
+.research-item-left {
+  text-align: justify;
+  align-self: flex-start;
+
+}
+
+.research-item-right {
+  align-self: flex-end;
+  img{
+    @media (max-width: 480px) {
+      margin: auto;
+      width: 95%;
+      align-self: center;
+      padding-left: 25px;
+    }
+  }
+
+}
+
+.about {
+  //padding : 20px;
+  display: flex;
+  flex-direction: column;
+}
+.about-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  img{
+    @media (max-width: 480px) {
+     width: 60%;
+    }
+  }
+  @media (max-width: 480px) {
+    flex-flow: row wrap;
+  }
+}
+.about-left {
+  align-self: flex-start;
+  text-align: justify;
+  width: 75%;
+  padding-top: 10px ;
+}
+.about-center {
+  border-left: 3px solid black;
+  height: 200px;
+  align-self: flex-end;
+  @media (max-width: 480px) {
+    border-left: none;
+    flex-flow: column wrap;
+    border-top: 30px solid black;
+  }
+}
+.about-right {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  @media (max-width: 480px) {
+    flex-flow: row wrap;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  background-color: #99AC7C;
+  display: flex;
+  justify-content: center ;
+align-items: flex-start;
+  overflow: hidden;
+  z-index: 1000;
+  @media (max-width: 480px) {
+    justify-content: center;
+    padding-left: 65px;
+  }
+}
+
+.accordion{
+  margin-top: 20px;
+
+}
+.accordion>.card>.card-header{
+  background: black;
+
+}
+.card-body{
+  background: darkgrey;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.navbar-nav{
+  .nav-item{
+    .nav-link {
+      padding-right: 2.5rem;
+      padding-left: 2.5rem;
+    }
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.card-row-1{
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 480px) {
+    flex-flow: row wrap;
   }
-  to {
-    transform: rotate(360deg);
+  justify-content: space-around;
+}
+.project{
+  width: 90%;
+  margin: auto;
+  @media (max-width: 480px) {
+    display: none;
+    width: 100%;
+    font-size: 12px;
   }
+}
+.projects-mobile{
+  display: none;
+  @media (max-width: 480px) {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+
+.bg-light{
+  background-color: #f2f1df !important;
 }
