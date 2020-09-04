@@ -11,7 +11,7 @@ function Experience(props) {
                 <div className="card">
                     <div className="card-header" id="headingOne">
                         <h2 className="mb-0">
-                            <button className="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                            <button className="btn btn-link btn-block" type="button" data-toggle="collapse"
                                     data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style={{color:'white',textDecoration:'none'}}>
                                 {Object.keys(EXPERIENCE)[0]}
                             </button>
@@ -36,7 +36,7 @@ function Experience(props) {
                 <div className="card">
                     <div className="card-header" id="headingTwo">
                         <h2 className="mb-0">
-                            <button className="btn btn-link btn-block text-right collapsed" type="button"
+                            <button className="btn btn-link btn-block collapsed" type="button"
                                     data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
                                     aria-controls="collapseTwo" style={{color:'white',textDecoration:'none'}}>
                             {Object.keys(EXPERIENCE)[1]}

@@ -163,6 +163,16 @@ research-header {
   text-align: justify;
   width: 75%;
   padding-top: 10px ;
+  img{
+    width: 30%;
+    margin-bottom: 10px;
+    @media (max-width: 480px) {
+      width: 100%;
+    }
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+  }
 }
 .about-center {
   border-left: 3px solid black;
@@ -179,7 +189,22 @@ research-header {
   align-self: flex-end;
   flex-direction: column;
   @media (max-width: 480px) {
-    flex-flow: row wrap;
+    display: none;
+  }
+}
+
+.about-right-hori{
+  display: none;
+  img{
+    @media (max-width: 480px) {
+      width: 30%;
+      padding-left:0;
+    }
+  }
+  @media (max-width: 480px) {
+    display: flex;
+    align-self: flex-start;
+    justify-self: flex-start;
   }
 }
 
