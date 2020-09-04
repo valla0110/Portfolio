@@ -10,12 +10,10 @@ function Experience(props) {
 
                 <div className="card">
                     <div className="card-header" id="headingOne">
-                        <h2 className="mb-0">
-                            <button className="btn btn-link btn-block" type="button" data-toggle="collapse"
-                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style={{color:'white',textDecoration:'none'}}>
-                                {Object.keys(EXPERIENCE)[0]}
-                            </button>
-                        </h2>
+                        <button className="btn btn-link btn-block" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style={{color:'white',textDecoration:'none'}}>
+                            {Object.keys(EXPERIENCE)[0]}
+                        </button>
                     </div>
 
                     <div id="collapseOne" className="collapse show" aria-labelledby="headingOne"
@@ -35,13 +33,11 @@ function Experience(props) {
 
                 <div className="card">
                     <div className="card-header" id="headingTwo">
-                        <h2 className="mb-0">
-                            <button className="btn btn-link btn-block collapsed" type="button"
-                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo" style={{color:'white',textDecoration:'none'}}>
+                        <button className="btn btn-link btn-block collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo" style={{color:'white',textDecoration:'none'}}>
                             {Object.keys(EXPERIENCE)[1]}
-                            </button>
-                        </h2>
+                        </button>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                         <div class="card-body">

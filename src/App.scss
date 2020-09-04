@@ -232,6 +232,12 @@ align-items: flex-start;
 }
 .accordion>.card>.card-header{
   background: black;
+  button{
+    text-align: right;
+    @media (max-width: 480px) {
+      text-align: center;
+    }
+  }
 
 }
 .card-body{
