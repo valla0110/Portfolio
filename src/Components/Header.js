@@ -11,17 +11,17 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" style={{paddingRight: "2.5re"}} href="/Portfolio"><em>Home</em></a>
+                            <a className="nav-link" style={{paddingRight: "2.5re"}} href="/"><em>Home</em></a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="/Portfolio/projects"><em>Projects</em></a>
+                            <a className="nav-link" href="/projects"><em>Projects</em></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/Portfolio/research"><em>Research</em></a>
+                            <a className="nav-link" href="/research"><em>Research</em></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/Portfolio/about"><em>About</em></a>
+                            <a className="nav-link" href="/about"><em>About</em></a>
                         </li>
                     </ul>
                 </div>
