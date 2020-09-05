@@ -25,7 +25,7 @@ function Education(props) {
                                     Shri Ramdeobaba College Of Engineering - Nagpur, Maharashtra (Aug’14-May’18)
                                 </li>
                                 <li>
-                                    Majored with CGPA 8.72 and developed 5 projects like chatbots, CMS, etc usingNLP, AWS, etc
+                                    Majored with CGPA 8.72 and developed 5 projects like chatbots, CMS, etc using NLP, AWS, etc
                                 </li>
                             </ul>
                         </div>
