@@ -10,10 +10,10 @@ function About() {
     return (
 
         <div className="about">
-            <em>  <h5 style={{ marginBottom: '20px' }}>ABOUT--</h5></em>
+             <h5 style={{ marginBottom: '20px' }}>ABOUT</h5>
                        <div className="about-body">
                            <div className="about-left">
-                               <img src={me} />
+                               <img src={me} style={{marginBottom:"20px"}}/>
                                <p>
                                    Hi, my name is Vinuthna, I’m working as a software developer for the last 2 years mostly using Javascript, Java, React, spring on day to day basis  & I’m particularly passionate about frontend development. The field of machine learning really intrigues me so I spend time reading about it a lot & I even have a paper published on the same as well.
                                    I’m very fond of martial arts and have also acquired a yellow belt in Taekwondo apart from this I spend my time  playing video games or reading books.

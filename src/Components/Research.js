@@ -5,9 +5,9 @@ function Research() {
     return (
         <div className="research">
             <div className="research-header">
-                <h5>RESEARCH --</h5>
+                <h5 style={{ marginBottom: '20px' }}>RESEARCH</h5>
                 <h4> An Ensemble Approach to Identify Hindi Speech Emotions :</h4>
-                <h5>Publisher: Journal of Advanced Research in Dynamical and Control Systems, October 2019 </h5>
+                <em> <h5>Publisher: Journal of Advanced Research in Dynamical and Control Systems, October 2019 </h5></em>
             </div>
             <div className="research-body">
                 <div className="research-item research-item-left">

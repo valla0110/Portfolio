@@ -5,7 +5,7 @@ import {EXPERIENCE} from './../Constants/Constants';
 function Experience(props) {
     return (
         <div className="experience">
-            <em><h5>EXPERIENCE--</h5></em>
+            <h5 style={{marginBottom:"70px"}}>EXPERIENCE</h5>
             <div className="accordion" id="accordionExample">
 
                 <div className="card">

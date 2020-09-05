@@ -8,6 +8,7 @@
 
 body {
   background-image: url("../src/img/home.png");
+  min-height: 100vh;
 }
 
 .home{
@@ -23,7 +24,7 @@ body {
   h2{
     padding-left: 150px;
     @media (max-width: 480px) {
-      font-size: 15px;
+      font-size: 14px;
     }
   }
   h4{
@@ -34,14 +35,24 @@ body {
   }
 }
 .home-left{
-  margin-bottom: 200px;
+  margin-left: 40px;
+  margin-top: 10px;
   @media (max-width: 480px) {
     margin-bottom: 100px;
   }
 }
+.home-arrow{
+  margin-top: 170px;
+  align-self: center;
+  margin-bottom: 100px;
+  @media (max-width: 480px) {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+}
 .home-right{
   width: 60%;
-  align-self:flex-end;
+  align-self:center;
 
   @media (max-width: 480px) {
     width: 100%;
@@ -130,6 +141,8 @@ research-header {
 .research-item-right {
   align-self: flex-end;
   img{
+    padding-bottom: 30px;
+    padding-left: 20px;
     @media (max-width: 480px) {
       margin: auto;
       width: 95%;
@@ -188,6 +201,7 @@ research-header {
   display: flex;
   align-self: flex-end;
   flex-direction: column;
+  margin-bottom: 10px;
   @media (max-width: 480px) {
     display: none;
   }
@@ -209,17 +223,18 @@ research-header {
 }
 
 .footer {
-  position: fixed;
+
   left: 0;
   bottom: 0;
   width: 100%;
   height: 5%;
-  background-color: #99AC7C;
+  background-color: lightgrey;
   display: flex;
   justify-content: center ;
 align-items: flex-start;
   overflow: hidden;
   z-index: 1000;
+  margin-top: auto;
   @media (max-width: 480px) {
     justify-content: center;
     padding-left: 65px;
@@ -228,7 +243,9 @@ align-items: flex-start;
 
 .accordion{
   margin-top: 20px;
-
+  .card{
+    border: 0;
+  }
 }
 .accordion>.card>.card-header{
   background: black;

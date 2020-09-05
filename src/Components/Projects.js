@@ -10,7 +10,7 @@ const image_6 = require('../img/1.png');
 function Projects() {
     return (
         <React.Fragment>
-            <em><h6>PROJECTS--</h6></em>
+            <h5>PROJECTS</h5>
             <em><p>Code for following projects can be found on my github.</p></em>
             <div id="carouselExampleCaptions" className="carousel slide project" data-ride="carousel">
                 <ol className="carousel-indicators">
@@ -51,14 +51,14 @@ function Projects() {
                             </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={image_5} className="d-block w-100" alt="..."/>
+                        <img src={image_6} className="d-block w-100" alt="..."/>
                             <div className="carousel-caption  d-md-block">
                                 <h5>{PROJECTS_TITLES[4]}</h5>
                                 <p>{PROJECT_CONTENT[4]}</p>
                             </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={image_6} className="d-block w-100" alt="..."/>
+                        <img src={image_5} className="d-block w-100" alt="..."/>
                             <div className="carousel-caption  d-md-block">
                                 <h5>{PROJECTS_TITLES[5]}</h5>
                                 <p>{PROJECT_CONTENT[5]}</p>
